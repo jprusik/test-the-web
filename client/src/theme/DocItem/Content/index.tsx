@@ -23,6 +23,7 @@ import type { Props } from "@theme/DocItem/Content";
  - user doesn't ask to hide it with front matter
  - the markdown content does not already contain a top-level h1 heading
 */
+// test comment
 function useSyntheticTitle(): string | null {
   const { metadata, frontMatter, contentTitle } = useDoc();
   const shouldRender =
