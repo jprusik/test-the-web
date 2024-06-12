@@ -52,7 +52,7 @@ export default function DocItemContent({ children }: Props): JSX.Element {
               {asSeenOn && (
                 <>
                   <small>
-                    <em>(as seen on {asSeenOn})</em>
+                    <em>as seen on {asSeenOn}</em>
                   </small>
                   <br />
                   <br />
