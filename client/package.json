@@ -18,25 +18,25 @@
     "write-translations": "docusaurus write-translations"
   },
   "dependencies": {
-    "@docusaurus/core": "3.4.0",
-    "@docusaurus/preset-classic": "3.4.0",
-    "@material/web": "1.5.0",
-    "@mdx-js/react": "3.0.1",
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@material/web": "2.4.0",
+    "@mdx-js/react": "3.1.1",
     "clsx": "2.1.1",
-    "prism-react-renderer": "2.3.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "prism-react-renderer": "2.4.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@axe-core/cli": "4.9.1",
-    "@docusaurus/module-type-aliases": "3.4.0",
-    "@docusaurus/tsconfig": "3.4.0",
-    "@docusaurus/types": "3.4.0",
-    "@emotion/babel-plugin": "11.11.0",
-    "@emotion/react": "11.11.4",
-    "@emotion/styled": "11.11.5",
-    "@types/react": "18.3.3",
-    "mui-one-time-password-input": "2.0.2"
+    "@axe-core/cli": "4.11.0",
+    "@docusaurus/module-type-aliases": "3.9.2",
+    "@docusaurus/tsconfig": "3.9.2",
+    "@docusaurus/types": "3.9.2",
+    "@emotion/babel-plugin": "11.13.5",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@types/react": "19.2.2",
+    "mui-one-time-password-input": "5.0.0"
   },
   "browserslist": {
     "production": [

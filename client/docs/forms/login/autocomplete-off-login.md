@@ -1,23 +1,26 @@
 ---
-slug: bare-inputs-login
-title: login inputs without an enclosing form
-sidebar_label: bare inputs
-sidebar_position: 5
-description: bare inputs without an enclosing `<form>` tag that will POST the input values on submit (via `fetch`)
+slug: autocomplete-off
+title: login form using `autocomplete=off`
+sidebar_label: autocomplete off
+description: a basic login form using the `autocomplete` attribute with a value of `off` on it's inputs, that will POST the input values on submit
 ---
-
-<script src="/js/bare-inputs-login.js" defer="defer"></script>
 
 <div class="container margin-vert--xl">
   <div class="row">
     <div class="card col col--12 padding--md">
-      <div class="card__body bare-inputs-container">
+      <form
+        class="card__body"
+        method="POST"
+        action="/login"
+        autocomplete="off"
+      >
         <div class="row margin-bottom--md">
           <label for="username" class="margin-right--sm">Username</label>
           <input
             type="text"
             id="username"
             name="username"
+            autocomplete="off"
             placeholder="e.g. jsmith, jsmith@example.com"
             required
           />
@@ -25,6 +28,7 @@ description: bare inputs without an enclosing `<form>` tag that will POST the in
         <div class="row margin-bottom--md">
           <label for="password" class="margin-right--sm">Password</label>
           <input
+            autocomplete="off"
             type="password"
             id="password"
             name="password"
@@ -32,9 +36,9 @@ description: bare inputs without an enclosing `<form>` tag that will POST the in
           />
         </div>
         <div class="row">
-          <button type="submit" id="bare-inputs-submit" class="button button--primary">Login</button>
+          <button type="submit" class="button button--primary">Login</button>
         </div>
-      </div>
+      </form>
     </div>
   </div>
 </div>
